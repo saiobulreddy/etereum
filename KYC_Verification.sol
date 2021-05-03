@@ -1,7 +1,8 @@
-pragma solidity ^0.7.1;
+// SPDX-License-Identifier: RANDOM_TEXT
+pragma solidity ^0.7.0;
 pragma experimental ABIEncoderV2;
 
-contract KYC_Verification{
+contract KYC{
     
     address admin;
     uint256 totalBanks;
@@ -203,3 +204,5 @@ contract KYC_Verification{
     }    
 
 }    
+
+
